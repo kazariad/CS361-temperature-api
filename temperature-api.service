@@ -1,0 +1,12 @@
+[Unit]
+Description=Temperature monitoring micro-service.
+After=network.target
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Type=simple
+User=username
+ExecStart=/path/to/serverBinary portNumber
+Restart=on-failure
