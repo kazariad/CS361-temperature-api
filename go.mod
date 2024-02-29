@@ -1,3 +1,3 @@
-module CS361-microservice
+module temperature-api
 
 go 1.16
